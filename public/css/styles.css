@@ -1,20 +1,64 @@
 
-
-
-
 *{
     margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+#home-heading,
+#about-heading{
+    font-weight: 700;
+    font-family: 'Rubik',sans-serif;
+}
+#topcontent{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+#footcontent{
+    position: relative;
+    top: 209px;
+    font-size: 20px;
+}
+#homecontent{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
 
+.background-image1{
+    position: relative;
+    right: 5rem;
+    border-radius: 265px;
+    height: 39px;
+    bottom: 565px;
+    top: -38.5em;
+}
+.background-image2{
+    position: relative;
+    right:-6em;
+    bottom: -81px;
+    height: 528px;
+    border-radius: 162px;
+}
 
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.container{
+    width: 100vh;
+}
+.navbar-brand,
+#home , 
+#about{
+    font-weight: 600;
+    /* font-size: 20px; */
+}
 .navbar {
-    background-color: #d6d69e;
-    color: rgb(198, 198, 121);
+    background-color: #10c665;
+    /* background:linear-gradient(#549f93 , #ffff); */
+    color: rgb(5, 5, 2);
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -24,33 +68,47 @@
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-    color: #082828 !important;
+    color: #0e0303 !important;
 }
 
-/* .footer-padding {
+.table-content{
+    position: absolute;
+    padding: 10px ;
+    overflow: scroll;
+}
+/* #foo{
+    position: fixed ;
+    width: 100%;
+    bottom: 0;
+} */
+
+ /* .footer-padding {
 	padding-bottom: 20px;
     right: 10px;
-} 
+}  */
 
-.footer {
+/* .footer {
 	position: relative;
 	text-align: center;
 	bottom: 0;
 	width: 70%;
 	height: 60px;
+    margin-top: 56px;
+    padding-top:15px ;
 	background-color: #7495c7;
-}
+} */
 
-.footer p {
+
+ /* .footer p {
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
-} */
+}  */
 
 
 /* body{
     text-align: center;
-} */
+}
 
 
 .table-content{
@@ -68,10 +126,14 @@
 #head-rows{
     font-family: 'Rubik' , sans-serif;
 }
+
 .content-table{
+    width: 100vh;
     position: relative;
-    top: 6em;
-    left: 17em;
+    top: 1em;
+    right: 13px;
+    margin-bottom: 200px;
+    /* left: 8em; */
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -82,7 +144,7 @@
 }
 
 .content-table thead tr {
-    background-color: #e2e593;
+    background-color: #52d48dd8;
     color: #ffffff;
     text-align: left;
     font-weight: bold;
