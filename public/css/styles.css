@@ -7,6 +7,8 @@
 body{
     height: 100vh;
     width: 100%;
+    /* background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)); */
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
 }
 #home-heading,
 #about-heading{
@@ -61,7 +63,7 @@ body{
     /* font-size: 20px; */
 }
 .navbar {
-    background-color: #10c665;
+    /* background-color: #10c665; */
     /* background:linear-gradient(#549f93 , #ffff); */
     color: rgb(5, 5, 2);
     padding-top: 15px;
@@ -152,8 +154,8 @@ body{
 }
 
 .content-table thead tr {
-    background-color: #52d48dd8;
-    color: #ffffff;
+    /* background-color: #52d48dd8; */
+    color: #111;
     text-align: left;
     font-weight: bold;
 }
