@@ -46,6 +46,9 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.container{
+    width: 100vh;
+}
 .navbar-brand,
 #home , 
 #about{
@@ -66,6 +69,12 @@
 }
 .navbar-nav  li a:hover {
     color: #0e0303 !important;
+}
+
+.table-content{
+    position: absolute;
+    padding: 10px ;
+    overflow: scroll;
 }
 /* #foo{
     position: fixed ;
@@ -117,11 +126,12 @@
 #head-rows{
     font-family: 'Rubik' , sans-serif;
 }
+
 .content-table{
-    width: 1000px;
+    width: 100vh;
     position: relative;
-    top: 7em;
-    right: -67px;
+    top: 1em;
+    right: 13px;
     margin-bottom: 200px;
     /* left: 8em; */
     border-collapse: collapse;
