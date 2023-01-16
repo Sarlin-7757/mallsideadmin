@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    height: 100vh;
+    width: 100%;
+}
 #home-heading,
 #about-heading{
     font-weight: 700;
@@ -43,10 +46,12 @@
 }
 
 .container-fluid {
+    /* height: 100vh; */
     padding-top: 70px;
     padding-bottom: 70px;
 }
 .container{
+    /* height: 100vh; */
     width: 100vh;
 }
 .navbar-brand,
@@ -75,35 +80,38 @@
     position: absolute;
     padding: 10px ;
     overflow: scroll;
+    width: 100vh;
 }
 /* #foo{
     position: fixed ;
-    width: 100%;
+    width: 100vh;
     bottom: 0;
-} */
-
+}  */
  /* .footer-padding {
 	padding-bottom: 20px;
     right: 10px;
-}  */
-
-/* .footer {
-	position: relative;
-	text-align: center;
-	bottom: 0;
-	width: 70%;
-	height: 60px;
-    margin-top: 56px;
-    padding-top:15px ;
-	background-color: #7495c7;
 } */
+
+ /* .footer { */
+    /* margin-top: 150px; */
+	/* position: absolute; */
+    /* top: 44em; */
+	/* text-align: center;
+	bottom: 0;
+	width: 100%; */
+	/* height: 80px; */
+    /* margin-top: 0; */
+    /* padding-top:100px 15% ;
+	 background-color: #10c665;  */
+    /* border: 5px solid red; */
+ /* } */
 
 
  /* .footer p {
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
-}  */
+ } */
 
 
 /* body{
