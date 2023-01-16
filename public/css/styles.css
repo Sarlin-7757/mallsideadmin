@@ -8,12 +8,14 @@ body{
     height: 100vh;
     width: 100%;
     /* background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)); */
-    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    /* background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%); */
+    background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
 }
 #home-heading,
 #about-heading{
     font-weight: 700;
     font-family: 'Rubik',sans-serif;
+    color: #fff;
 }
 #topcontent{
     position: relative;
@@ -155,14 +157,18 @@ body{
 
 .content-table thead tr {
     /* background-color: #52d48dd8; */
-    color: #111;
+    color: rgb(226, 225, 225);
     text-align: left;
     font-weight: bold;
 }
 
-.content-table th,
+.content-table th{
+    padding: 12px 15px;
+    color: #fff;
+}
 .content-table td{
     padding: 12px 15px;
+    color:#111
 }
 
 .content-table tbody tr{
